@@ -1,0 +1,50 @@
+.clients li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 30px;
+}
+
+.clients li img {
+  width: 255px;
+  height: 130px;
+}
+
+.clients-buttons ul {
+  display: inline;
+}
+
+.ellipse li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 30px;
+}
+
+.buttons li {
+  list-style-type: none;
+  display: inline;
+}
+
+.ellipse {
+  float: left;
+}
+
+.buttons {
+  float: right;
+}
+
+.reviews {
+  clear: both;
+}
+
+.services li {
+  list-style-type: none;
+  float: left;
+  width: 350px;
+  height: 360px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.about-us {
+  clear: left;
+}
