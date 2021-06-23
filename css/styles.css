@@ -1,4 +1,7 @@
 body {
+  font-family: "Lato", sans-serif;
+  --accent-color: #005fa3;
+  --first-line-color: #000000;
 }
 
 h1,
@@ -19,6 +22,60 @@ p {
 .list {
   list-style: none;
 }
+
+/*=======Header=======*/
+
+.first-line {
+  font-family: inherit;
+  font-size: 13px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: var(--first-line-color);
+}
+
+.first-line:hover,
+.first-line:focus {
+  color: var(--accent-color);
+}
+
+/*=======End of Header=======*/
+
+/*=======Hero=======*/
+.hero-section {
+  background-color: rgb(51, 58, 58);
+}
+
+.hero-title {
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.38;
+
+  color: #ffffff;
+}
+
+.modal-button {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.39;
+  /* identical to box height */
+
+  text-align: center;
+
+  /* White */
+
+  color: #ffffff;
+
+  width: 270px;
+  height: 60px;
+  left: 405px;
+  top: 477px;
+  background-color: var(--accent-color);
+}
+
+/*=======End of Hero=======*/
 
 .clients li {
   list-style-type: none;
