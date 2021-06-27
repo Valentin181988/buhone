@@ -13,151 +13,176 @@
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>WebStudio</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
     <!--Header-->
     <header class="header">
         <div class="container header-container">
-            <nav class="header-nav">
-                <a class="link-logo link" href="./index.html"><span class="web">Web</span><span
-                        class="studio">Studio</span></a>
-                <ul class="menu list">
-                    <li class="menu-link-list">
-                        <a class="menu-link link active-link " href="./index.html">Студия</a>
-                    </li>
-                    <li class="menu-link-list">
-                        <a class="menu-link link" href="./portfolio.html">Портфолио</a>
-                    </li>
-                    <li class="menu-link-list">
-                        <a class="menu-link link" href="">Контакты</a>
-                    </li>
-                </ul>
-            </nav>
-            <ul class="menu-link-contacts list">
-                <li><a class="header-button link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="tel-link-header link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <nav class="header-nav">
+            <a class="link-logo link" href="./index.html"><span class="web">Web</span><span
+                    class="studio">Studio</span></a>
+            <ul class="menu list">
+                <li class="menu-link-list">
+                    <a class="menu-link link" href="./index.html">Студия</a>
+                </li>
+                <li class="menu-link-list">
+                    <a class="menu-link link active-link " href="./portfolio.html">Портфолио</a>
+                </li>
+                <li class="menu-link-list">
+                    <a class="menu-link link" href="">Контакты</a>
+                </li>
             </ul>
+        </nav>
+        <ul class="menu-link-contacts list">
+            <li><a class="header-button link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="tel-link-header link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
         </div>
     </header>
     <main>
         <!--Hero-->
-        <section class="hero">
+        <section class="hero-prt">
             <div class="container">
-                <h1 class="hero-title">Эффективные решения <br> для вашего бизнеса</h1>
-                <button class="modal-btn" type="button">Заказать услугу</button>
+            <h2 hidden>Вкладки</h2>
+            <div class="wigets-padding">
+            <ul class="wigets list">
+                <li class="wigets"><button class="wigets-link active-wiget">Все</button></li>
+                <li class="wigets"><button class="wigets-link">Веб-сайты</button></li>
+                <li class="wigets"><button class="wigets-link">Приложения</button></li>
+                <li class="wigets"><button class="wigets-link">Дизайн</button></li>
+                <li class="wigets"><button class="wigets-link">Маркетинг</button></li>
+            </ul>
             </div>
-        </section>
-        <!--Advantages-->
-        <section class="advantages">
-            <div class="container">
-                <h2 class="advantages-title" hidden>Advantages</h2>
-                <ul class="advantages-list section-padding list ">
-                    <li class="advantages-list-points">
-                        <h3 class="advantages-title-points">Внимание к деталям</h3>
-                        <p class="advantages-text">Идейные соображения, а также начало повседневной работы по
-                            формированию позиции.</p>
-                    </li>
+            <ul class="projects list">
 
-                    <li class="advantages-list-points">
-                        <h3 class="advantages-title-points">Пунктуальность</h3>
-                        <p class="advantages-text">Задача организации, в особенности же рамки и место обучения кадров
-                            влечет
-                            за собой.</p>
-                    </li>
+                <div class="distance">
+                <li class="progects-blocks">
+                    <a class="projects-links link" href=""><img src="./images/projects/technocrjk.jpg"
+                            alt="открытый ноутбук" width="370" height="294">
+                        <div class="card-content">
+                        <h3 class="projects-list">Технокряк</h3>
+                        <p class="projects-title">Веб-сайт</p>
+                        </div>  
+                    </a>
+                </li>
+                </div>
+                
+                <div class="distance">
+                <li class="progects-blocks">
+                    <a class="projects-links link" href=""><img src="./images/projects/new-orlean-vs-golden-star.jpg"
+                            alt="игра в баскетбол" width="370" height="294">
+                        <div class="card-content">
+                        <h3 class="projects-list">Постер New Orlean vs Golden Star</h3>
+                        <p class="projects-title">Дизайн</p>
+                        </div>
+                    </a>
+                </li>
+                </div>
 
-                    <li class="advantages-list-points">
-                        <h3 class="advantages-title-points">Планирование</h3>
-                        <p class="advantages-text">Равным образом консультация с широким активом в значительной степени
-                            обуславливает.</p>
-                    </li>
+                <div class="distance">
+                <li class="progects-blocks">
+                    <a class="projects-links link" href=""><img src="./images/projects/seafood.jpg"
+                            alt="логотип ресторана" width="370" height="294">
+                        <div class="card-content">
+                        <h3 class="projects-list">Ресторан Seafood</h3>
+                        <p class="projects-title">Приложение</p>
+                        </div>
+                    </a>
+                </li>
+                </div>
 
-                    <li class="advantages-list-points">
-                        <h3 class="advantages-title-points">Современные технологии</h3>
-                        <p class="advantages-text">Значимость этих проблем настолько очевидна, что реализация плановых
-                            заданий.</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!--our job-->
-        <section class="our-job">
-            <div class="container">
-                <h2 class="our-job-list">Чем мы занимаемся</h2>
-                <ul class="job-icons list">
-                    <li><img class="job-images" src="./images/our-job/box-1.jpg" alt="Разработчик пишет код" width="370"
-                            height="294"></li>
-                    <li><img class="job-images" src="./images/our-job/box-2.jpg"
-                            alt="Разработчик создает мобильное приложение" width="370" height="294"></li>
-                    <li><img class="job-images" src="./images/our-job/box-3.jpg" alt="Разработчик работает с цветом"
+                <div class="distance">
+                <li class="progects-blocks">
+                    <a class="projects-links link" href=""><img src="./images/projects/prime.jpg" alt="наушники"
                             width="370" height="294">
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <!-- Our team-->
-        <section class="our-team">
-            <div class="container section-padding">
-                <h2 class="our-team-list">Наша команда</h2>
-                <ul class="our-team-blocks list">
+                        <div class="card-content">
+                        <h3 class="projects-list">Проект Prime</h3>
+                        <p class="projects-title">Маркетинг</p>
+                        </div>
+                    </a>
+                </li>
+                </div>
 
-                    <div class="our-team-persons-wrapper">
-                        <li class="our-team-persons">
-                            <img class="our-team-image" src="./images/our-team/igor-demjnenko.jpg"
-                                alt="Mужчина в очках улыбается" width="270" height="260">
-                            <h3 class="our-team-name">Игорь Демьяненко</h3>
-                            <p class="our-team-specialty">Product Designer</p>
-                        </li>
-                    </div>
+                <div class="distance">
+                <li class="progects-blocks">
+                    <a class="projects-links link" href=""><img src="./images/projects/boxes.jpg"
+                            alt="несколько коробок" width="370" height="294">
+                        <div class="card-content">
+                        <h3 class="projects-list">Проект Boxes</h3>
+                        <p class="projects-title">Приложение</p>
+                        </div>
+                    </a>
+                </li>
+                </div>
 
-                    <div class="our-team-persons-wrapper">
-                        <li class="our-team-persons">
-                            <img class="our-team-image" src="./images/our-team/olga-repina.jpg"
-                                alt="Женщина в очках улыбается" width="270" height="260">
-                            <h3 class="our-team-name">Ольга Репина</h3>
-                            <p class="our-team-specialty">Frontend Developer</p>
-                        </li>
-                    </div>
+                <div class="distance">
+                <li class="progects-blocks">
+                    <a class="projects-links link" href=""><img src="./images/projects/inspiration-has-no-borders.jpg"
+                            alt="монитор apple" width="370" height="294">
+                        <div class="card-content">
+                        <h3 class="projects-list">Inspiration has no Borders</h3>
+                        <p class="projects-title">Веб-сайт</p>
+                        </div>
+                    </a>
+                </li>
+                </div>
 
-                    <div class="our-team-persons-wrapper">
-                        <li class="our-team-persons">
-                            <img class="our-team-image" src="./images/our-team/nikolai-tarasov.jpg"
-                                alt="Мужчина в голубой рубашке улыбается" width="270" height="260">
-                            <h3 class="our-team-name">Николай Тарасов</h3>
-                            <p class="our-team-specialty">Marketing</p>
-                        </li>
-                    </div>
+                <div class="distance">
+                <li class="progects-blocks">
+                    <a class="projects-links link" href=""><img src="./images/projects/limited-edition.jpg"
+                            alt="развернутый журнал" width="370" height="294">
+                        <div class="card-content">
+                        <h3 class="projects-list">Издание Limited Edition</h3>
+                        <p class="projects-title">Дизайн</p>
+                        </div>
+                    </a>
+                </li>
+                </div>
 
-                    <div class="our-team-persons-wrapper">
-                        <li class="our-team-persons">
-                            <img class="our-team-image" src="./images/our-team/mihail-ermakov.jpg"
-                                alt="Mужчина в очках улыбается" width="270" height="260">
-                            <h3 class="our-team-name">Михаил Ермаков</h3>
-                            <p class="our-team-specialty">UI Designer</p>
-                        </li>
-                    </div>
+                <div class="distance">
+                <li class="progects-blocks">
+                    <a class="projects-links link" href=""><img src="./images/projects/lab.jpg"
+                            alt="табличка с названием проекта" width="370" height="294">
+                        <div class="card-content">
+                        <h3 class="projects-list">Проект LAB</h3>
+                        <p class="projects-title">Маркетинг</p>
+                        </div>
+                    </a>
+                </li>
+                </div>
 
-                </ul>
+                <div class="distance">
+                <li class="progects-blocks">
+                    <a class="projects-links link" href=""><img src="./images/projects/growing-business.jpg"
+                            alt="человек работает за ноутбуком" width="370" height="294">
+                        <div class="card-content">
+                        <h3 class="projects-list">Growing Business</h3>
+                        <p class="projects-title">Приложение</p>
+                        </div>
+                    </a>
+                </li>
+                </div>
+
+            </ul>
             </div>
         </section>
     </main>
-    <!--Footer-->
     <footer class="footer">
         <div class="container footer-padding">
-            <a class="link-logo-footer link" href="./"><span class="web">Web</span><span
-                    class="studio-footer">Studio</span></a>
-            <address class="adress-title">
-                <ul class="adress-list list">
-                    <li class="adress-list-link"><a class="adress-link link"
-                            href="https://goo.gl/maps/qC3HTHTLp7hDpbV6A" target="_blank" rel="noopener noreferrer">г.
-                            Киев, пр-т Леси Украинки, 26</a></li>
-                    <li class="adress-list-link"><a class="adress-link mail link"
-                            href="mailto:info@example.com">info@example.com</a></li>
-                    <li class="adress-list-link"><a class="adress-link tel link" href="tel:+380991111111">+38 099 111 11
-                            11</a></li>
-                </ul>
-            </address>
+        <a class="link-logo link" href="./"><span class="web">Web</span><span class="studio-footer">Studio</span></a>
+        <address class="adress-title">
+            <ul class="adress-list list">
+                <li class="adress-list-link"><a class="adress-link link" href="https://goo.gl/maps/qC3HTHTLp7hDpbV6A"
+                        target="_blank" rel="noopener noreferrer">
+                        г.Киев, пр-т Леси Украинки, 26</a></li>
+                <li class="adress-list-link"><a class="adress-link mail link"
+                        href="mailto:info@example.com">info@example.com</a></li>
+                <li class="adress-list-link"><a class="adress-link tel link" href="tel:+380991111111">+38 099 111 11
+                        11</a></li>
+            </ul>
+        </address>
         </div>
     </footer>
 </body>
