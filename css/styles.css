@@ -40,6 +40,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  outline: 1px solid tomato;
 }
 
 .link {
@@ -52,6 +53,24 @@ img {
 
 /*=======Header=======*/
 
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.logo-head {
+  display: flex;
+}
+
 .first-line {
   font-family: inherit;
   font-size: 13px;
@@ -63,6 +82,17 @@ img {
 
 .first-line:hover,
 .first-line:focus {
+  color: var(--accent-color);
+}
+
+.title-link-logo {
+  font-family: Merriweather;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 1.39;
+
+  /* Accent */
+
   color: var(--accent-color);
 }
 
@@ -94,6 +124,7 @@ img {
   line-height: 1.38;
 
   color: var(--hero-text-color);
+  padding-top: 170px;
 }
 
 .modal-button {
@@ -115,8 +146,42 @@ img {
 
   color: var(--hero-text-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
+.position {
+  margin-top: 80px;
+}
+
+.general {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.elipse {
+  display: flex;
+  align-items: center;
+}
+
+.point:not(:last-child) {
+  margin-right: 40px;
+}
+
+.point {
+  margin-top: 120px;
+  padding-bottom: 113px;
+}
+
+.slider-button {
+  display: flex;
+  margin-top: 70px;
+  padding-bottom: 113px;
+}
+
+.sign {
+  outline: 1px solid black;
+}
 /*=======End of Hero=======*/
 
 /*=======Our services======*/
