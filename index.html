@@ -19,7 +19,8 @@
 <body>
     <!-- Header-->
     <header>
-        <ul class="list">
+        <div class="container">
+        <ul class="header-list list">
             <li><a href="tel:81112223344" class="first-line link"><img src="./images/header/Vector.jpg" width="10" height="17"
                         alt="telephone image">8 (111) 222-33-44</a></li>
             <li><a href="" class="first-line link"><img src="./images/header/Frame.jpg" width="17" height="17" alt="oclock">Пн-Пт
@@ -29,21 +30,24 @@
             <li><a href="" class="first-line link"><img src="./images/header/placeholder.jpg" width="17" height="17" alt="placeholder">Невский
                     пр. 130</a></li>
         </ul>
-        <nav>
-            <a href="./" class="link"><img src="./images/header/logo.jpg" width="40" height="40" alt="logo">BuhOne</a>
-            <ul class="list">
-                <li><a href="" class="link">Главная</a></li>
-                <li><a href="" class="link">услуги</a></li>
-                <li><a href="" class="link">кейсы</a></li>
-                <li><a href="" class="link">о компании</a></li>
-                <li><a href="" class="link">контакты</a></li>
+        <nav class="nav">
+            <a href="./" class="title-link link"><img src="./images/header/logo.jpg" width="40" height="40" alt="logo">BuhOne</a>
+            <ul class="nav-list list">
+                <li><a href="" class="title-link link">Главная</a></li>
+                <li><a href="" class="title-link link">услуги</a></li>
+                <li><a href="" class="title-link link">кейсы</a></li>
+                <li><a href="" class="title-link link">о компании</a></li>
+                <li><a href="" class="title-link link">контакты</a></li>
             </ul>
         </nav>
+        </div>
     </header>
     <main>
         <!--Hero-->
         <section class="hero-section">
-            <h1 class="hero-title">Бухгалтерские услуги в Санкт-Петербурге</h1>
+
+            <div class="container">
+            <h1 class="hero-title">Бухгалтерские услуги <br> в Санкт-Петербурге</h1>
             <button type="button" class="modal-button">Наша презентация</button>
             <ul class="list">
                 <li><img src="./images/main/slider-button-next.jpg" alt="slider-button-next" width="60" height="60">
@@ -51,18 +55,21 @@
                 <li><img src="./images/main/slider-button-next.jpg" alt="slider-button-next" width="60" height="60">
                 </li>
             </ul>
-            <ul>
+            <ul class="list">
                 <li><img src="./images/main/slider-button-next.jpg" alt="slider-button-next" width="60" height="60">
                 </li>
                 <li><img src="./images/main/slider-button-next.jpg" alt="slider-button-next" width="60" height="60">
                 </li>
             </ul>
+            </div>
 
         </section>
         <!--Our services-->
         <section class="services">
-            <h2>Наши услуги</h2>
-            <p>Мы специализируемся</p>
+
+            <div class="container">
+            <h2 class="services-title">Наши услуги</h2>
+            <p class="specification">Мы специализируемся</p>
             <ul class="list">
                 <li><a href="" class="link"><img src="./images/services/services-item.jpg" alt="link"></a>
                 </li>
@@ -77,12 +84,17 @@
                 <li><a href="" class="link"><img src="./images/services/services-item.jpg" alt="link"></a>
                 </li>
             </ul>
+            </div>
+
         </section>
         <!--About us-->
         <section class="about-us">
-            <h2>О нас</h2>
-            <h3>Компания ИвановПром</h3>
-            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+
+            <div class="container">
+            <h2 class="about">О нас</h2>
+            <h3><span class="company">Компания</span> <br> <span class="ivanov">ИвановПром</span></h3>
+
+            <p class="reviews-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
                 стандартной "рыбой" для
                 текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию
                 размеров и форм
@@ -90,35 +102,47 @@
                 заметных изменений
                 пять веков, но и перешагнул в электронный дизайн.
             </p>
+
             <ul class="list">
+                <div class="cards-about">
                 <li>
-                    <p>90</p>
-                    <p>Завершено крупных сделок</p>
-                    <button type="button">Все кейсы</button>
+                    <p class="number">90</p>
+                    <p class="finish">Завершено крупных сделок</p>
+                    <button type="button" class="cases">Все кейсы</button>
                 </li>
+                </div>
+                <div class="cards-about">
                 <li>
-                    <p>90</p>
-                    <p>Завершено крупных сделок</p>
-                    <button type="button">Все кейсы</button>
+                    <p class="number">90</p>
+                    <p class="finish">Завершено крупных сделок</p>
+                    <button type="button" class="cases">Все кейсы</button>
                 </li>
+                </div>
+                <div class="cards-about">
                 <li>
-                    <p>90</p>
-                    <p>Завершено крупных сделок</p>
-                    <button type="button">Все кейсы</button>
+                    <p class="number">90</p>
+                    <p class="finish">Завершено крупных сделок</p>
+                    <button type="button" class="cases">Все кейсы</button>
                 </li>
+                </div>
+                <div class="cards-about">
                 <li>
-                    <p>90</p>
-                    <p>Завершено крупных сделок</p>
-                    <button type="button">Все кейсы</button>
+                    <p class="number">90</p>
+                    <p class="finish">Завершено крупных сделок</p>
+                    <button type="button" class="cases">Все кейсы</button>
                 </li>
+                </div>
             </ul>
+            </div>
+
         </section>
 
         <!--Our clients-->
         <section>
-            <h2>Наши клиенты</h2>
-            <h3>С нами работают</h3>
-            <ul class="clients">
+            <div class="container">
+            <h2 class="about">Наши клиенты</h2>
+            <h3 class="company">С нами работают</h3>
+            <ul class="clients list">
                 <li><img src="./images/our-clients/Rectangle 2.jpg" width="255px" alt="microsoft"> </li>
                 <li><img src="./images/our-clients/Rectangle 2.jpg" alt="microsoft"> </li>
                 <li><img src="./images/our-clients/Rectangle 2.jpg" alt="microsoft"> </li>
@@ -127,24 +151,28 @@
 
             <div class="clients-buttons">
                 
-                <ul class="ellipse">
+                <ul class="ellipse list">
                     <li><img src="./images/our-clients/Ellipse.jpg" alt="Ellipse"></li>
                     <li><img src="./images/our-clients/Ellipse.jpg" alt="Ellipse"></li>
                     <li><img src="./images/our-clients/Ellipse.jpg" alt="Ellipse"></li>
                     <li><img src="./images/our-clients/Ellipse.jpg" alt="Ellipse"></li>
                 </ul>
-                <ul class="buttons">
+                <ul class="buttons list">
                     <li><img src="./images/our-clients/slider-button-prev.jpg" alt="slider-button-prev"></li>
                     <li><img src="./images/our-clients/slider-button-next.jpg" alt="slider-button-next"></li>
                 </ul>
             </div>
+            </div>
+
         </section>
 
         <!--Reviews-->
         <section class="reviews">
-            <h2>Отзывы</h2>
-            <h3>Ваши благодарности</h3>
-            <p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
+
+            <div class="container">
+            <h2 class="about">Отзывы</h2>
+            <h3 class="company">Ваши благодарности</h3>
+            <p class="reviews-text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является
                 стандартной "рыбой" для
                 текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию
                 размеров и форм
@@ -152,19 +180,25 @@
                 используемый в печати и
                 вэб-дизайне.
             </p>
+            <img src="./images/reviews/Ellipse.jpg" alt="Екатерина Иванова">
+            <h3 class="director-name">Екатерина Иванова</h3>
+            <h3 class="director">Директор ООО “Раз-два”</h3>
+            </div>
+
         </section>
     </main>
     <!--Footer-->
     <footer>
-        <h2>Связь с нами</h2>
-        <p>У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
-        <ul>
+        <div class="container">
+        <h2 class="connection-title">Связь с нами</h2>
+        <p class="questions">У вас остались вопросы? Напишите нам - мы ответим в ближайшее время!</p>
+        <ul class="list">
             <li><a href="tel:+71112223344" class="link"><img src="./images/footer/Group.png" alt="telephone image" width="17"
                         height="30"> +7 (111) 222-33-44</a></li>
             <li><a href="mailto:order@bu-one.ru" class="link"><img src="./images/footer/Frame.png" alt="mail image" width="39"
                         height="30">order@bu-one.ru</a></li>
         </ul>
-        <ul>
+        <ul class="list">
             <li>
                 <h3>Имя</h3>
                 <p>Иван</p>
@@ -179,7 +213,7 @@
             </li>
         </ul>
         <button type="button">Отправить сообщение</button>
-        <ul>
+        <ul class="list">
             <li>
                 <p>2019 (с) Все права защищены. БухОне.ру</p>
             </li>
@@ -187,6 +221,8 @@
                 <p>Разработано: BuhOne</p>
             </li>
         </ul>
+        </div>
+
     </footer>
 </body>
 

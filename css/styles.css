@@ -1,7 +1,14 @@
 body {
   font-family: "Lato", sans-serif;
+
   --accent-color: #005fa3;
   --first-line-color: #000000;
+  --second-line-color: #222222;
+  --hero-text-color: #ffffff;
+  --servises-title: #bdbdbd;
+  --specifications: #333333;
+  --cards-about: #ebebeb;
+  --director-color: #4f4f4f;
 }
 
 h1,
@@ -13,6 +20,26 @@ h6,
 p {
   margin-top: 0;
   margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.container {
+  width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .link {
@@ -28,7 +55,7 @@ p {
 .first-line {
   font-family: inherit;
   font-size: 13px;
-  line-height: 17px;
+  line-height: 1.31;
   /* identical to box height */
 
   color: var(--first-line-color);
@@ -39,6 +66,20 @@ p {
   color: var(--accent-color);
 }
 
+.title-link {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  /* Text color */
+
+  color: var(--second-line-color);
+}
 /*=======End of Header=======*/
 
 /*=======Hero=======*/
@@ -52,7 +93,7 @@ p {
   font-size: 48px;
   line-height: 1.38;
 
-  color: #ffffff;
+  color: var(--hero-text-color);
 }
 
 .modal-button {
@@ -62,68 +103,152 @@ p {
   line-height: 1.39;
   /* identical to box height */
 
+  display: inline-block;
   text-align: center;
 
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 58px;
+  padding-right: 58px;
   /* White */
 
-  color: #ffffff;
-
-  width: 270px;
-  height: 60px;
-  left: 405px;
-  top: 477px;
+  color: var(--hero-text-color);
   background-color: var(--accent-color);
 }
 
 /*=======End of Hero=======*/
 
-.clients li {
-  list-style-type: none;
-  display: inline;
-  margin-right: 30px;
+/*=======Our services======*/
+
+.services-title {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.38;
+
+  /* #BDBDBD */
+
+  color: var(--servises-title);
 }
 
-.clients li img {
+.specification,
+.company,
+.ivanov {
+  font-family: Merriweather;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.44;
+
+  /* #333333 */
+
+  color: var(--specifications);
+}
+
+/*=======End of Our services======*/
+
+/*=======About us======*/
+.about {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.38;
+
+  /* #BDBDBD */
+
+  color: var(--servises-title);
+}
+
+.ivanov {
+  color: var(--accent-color);
+}
+
+.number {
+  font-weight: 900;
+  font-size: 55px;
+  line-height: 1.2;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+
+  color: var(--first-line-color);
+}
+
+.finish {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.29;
+
+  color: var(--first-line-color);
+}
+
+.cases {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.21;
+  /* identical to box height */
+
+  text-decoration-line: underline;
+
+  /* Accent */
+
+  color: var(--accent-color);
+  border: none;
+  background-color: transparent;
+}
+
+.cards-about {
   width: 255px;
-  height: 130px;
+  height: 255px;
+  background-color: var(--cards-about);
+}
+/*=======End of About us======*/
+
+/*=======Our clients======*/
+
+/*=======End of Our clients======*/
+
+/*=======End of Review======*/
+
+.reviews-text,
+.director-name {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.39;
+
+  color: var(--first-line-color);
 }
 
-.clients-buttons ul {
-  display: inline;
+.director-name {
+  font-weight: 900;
 }
 
-.ellipse li {
-  list-style-type: none;
-  display: inline;
-  margin-right: 30px;
+.director {
+  font-size: 14px;
+  line-height: 19px;
+
+  /* #4F4F4F */
+
+  color: var(--director-color);
+}
+/*=======End of Review======*/
+
+/*=======Footer=======*/
+
+.connection-title {
+  font-family: Merriweather;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.44;
+
+  /* White */
+
+  color: var(--hero-text-color);
 }
 
-.buttons li {
-  list-style-type: none;
-  display: inline;
-}
+.questions {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 1.39;
 
-.ellipse {
-  float: left;
-}
+  /* White */
 
-.buttons {
-  float: right;
+  color: var(--hero-text-color);
 }
-
-.reviews {
-  clear: both;
-}
-
-.services li {
-  list-style-type: none;
-  float: left;
-  width: 350px;
-  height: 360px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-
-.about-us {
-  clear: left;
-}
+/*=======End of Footer=======*/
